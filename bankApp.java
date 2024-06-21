@@ -41,6 +41,12 @@ will be added in hotfix
   }
 //for bob
   public static void deposit() {
+     Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter the amount to deposit: $");
+    double amount = scanner.nextDouble();
+    balance += amount;
+    System.out.println("$" + amount + " has been deposited to your account.");
+    checkBalance();
   }
 //for green
   public static void withdraw() {
