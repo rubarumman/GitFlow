@@ -4,8 +4,8 @@ public class Bank {
   static double balance = 0;
 
   public static void main(String[] args) {
-will be added in hotfix
-   // Scanner scanner = new Scanner(System.in);
+ // added in hotfix
+    Scanner scanner = new Scanner(System.in);
     int option = 0;
     while (option != 4) {
       System.out.println("Welcome to the Bank of Java");
